@@ -1,5 +1,5 @@
 import { useState } from "react";
-import data from "../db/data.json";
+import data from "../data/data.json";
 import Spinner from "./spinner";
 
 const AiImage = () => {
