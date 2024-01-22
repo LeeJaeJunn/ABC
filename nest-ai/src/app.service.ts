@@ -106,7 +106,7 @@ export class AppService {
   async getEng(data: string): Promise<string> {
     try {
       const response = await this.openai.chat.completions.create({
-        model: 'gpt-4',
+        model: 'gpt-4-1106-preview',
         messages: [
           {
             role: 'system',
